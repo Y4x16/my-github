@@ -1,0 +1,237 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+header .location, header .actions {
+    display: flex;
+    align-items: center;
+}
+
+header .location span {
+    margin-right: 5px;
+}
+
+header .actions a {
+    margin-left: 10px;
+    color: #ff6600;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #ffcc00;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color:black;
+}
+
+.hero .search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .search-bar input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero .search-bar button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.deals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.deal {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.deal img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.deal .discount {
+    background-color: #ff6600;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 0;
+}
+
+.deal .details {
+    padding: 10px;
+}
+
+.deal .details p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.deal .details .remaining {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+/* How does it work section */
+.how-it-works {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff4e3;
+  }
+  
+  .how-it-works h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .step {
+    width: 200px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .step .icon {
+    font-size: 3em;
+    color: #ffb700;
+  }
+  
+  .step h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .step p {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Featured Restaurants Section */
+  .featured-restaurants {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .featured-restaurants h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .restaurants {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .restaurant {
+    width: 220px;
+    margin: 20px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .restaurant img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .tags {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+  }
+  
+  .discount {
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  .fast {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+  .restaurant h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .restaurant p {
+    color: #ffa000;
+    font-size: 0.9em;
+  }
+  
+  .status {
+    display: block;
+    margin: 10px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+  }
+  
+  .status.open {
+    background: #e8f5e9;
+    color: #4caf50;
+  }
+  
+  .status.closed {
+    background: #ffebee;
+    color: #e53935;
+  }
+  
